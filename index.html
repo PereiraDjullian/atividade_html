@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Djullian Pereira</title>
     <style>
 
 
         .foto_perfil{
             border-radius: 50%;
+            width: 150px;
 
+        }
+        table{
+            align-items: center;
         }
     </style>
 </head>
 <body>
-    <img class ="foto_perfil"src="img/profile_pic_1.png" alt="">
-    <h1>👨‍💻 Djullian Pereira</h1>
-    <p>Estudante de <strong> Programacao</strong> </p>
-    <p> <em>Lorem ipsum dolor sit amet consectetur adipisicing elit.atem sint aut sunt. Quas nam odit aspernatur blanditiis adipisci autem, corrupti officia eos labore repellendus omnis?</em> </p>
-    <p>Veja meu <a href="#">LinkedIn</a>.</p>
+    <table class = "cabecalho">
+        <td>
+            <img class ="foto_perfil" src="/img/profile_pic_1.png" alt="foto de perfil">
+        </td>
+        <td>
+            <p>Estudante de <strong> Programacao</strong> </p>
+            <p> <em>Lorem ipsum dolor sit amet consectetur adipisicing elit.atem sint aut sunt. Quas nam odit aspernatur blanditiis adipisci autem, corrupti officia eos labore repellendus omnis?</em> </p>
+            <p>Veja meu <a href="#">LinkedIn</a>.</p>
+
+        </td>
+
+
+    </table>
     <hr>
     <h2>Cursos e especializacoes</h2>
     <ul>
@@ -29,6 +42,36 @@
     </ul>
     <a href="hobbies.html">Hobbies</a>
     <a href="contatos.html">Contatos</a>
+    <hr>
+    <h2>Experiencia Profissional</h2>
+    <table>
+        <!-- 1 linha :cabecalho-->
+        <tr>
+            <th>DATA</th>
+            <th>EXPERIENCIA</th>
+
+        </tr>
+        <!--2 linha : dados-->
+        <tr>
+            <td>2007-2008</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, soluta!</td>
+
+        </tr>
+        <!-- 3 linha dados-->
+        <tr>
+            <td>2008-2013</td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, voluptatum?</td>
+        </tr>
+        <!--4 linha dados-->
+        <tr>
+            <td>2013</td>
+            <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, sint!</td>
+   
+        </tr>
+          
+
+
+    </table>
     
     
 </body>
